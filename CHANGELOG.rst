@@ -2,8 +2,8 @@
 Changelog for package hardware
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.0 (2024-07-16)
+------------------
 * moved to separate repo
 * make startup sequence less epilepsy triggering
 * speedup startup sequence
