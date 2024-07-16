@@ -1,3 +1,10 @@
+from hippo_common.launch_helper import (
+    LaunchArgsDict,
+    config_file_path,
+    declare_vehicle_name_and_sim_time,
+)
+from launch_ros.actions import Node, PushRosNamespace
+
 from launch import LaunchDescription
 from launch.actions import (
     DeclareLaunchArgument,
@@ -5,13 +12,6 @@ from launch.actions import (
     GroupAction,
 )
 from launch.substitutions import LaunchConfiguration
-from launch_ros.actions import Node, PushRosNamespace
-
-from hippo_common.launch_helper import (
-    LaunchArgsDict,
-    config_file_path,
-    declare_vehicle_name_and_sim_time,
-)
 
 
 def declare_launch_args(launch_description: LaunchDescription):
