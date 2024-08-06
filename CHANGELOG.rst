@@ -2,6 +2,14 @@
 Changelog for package hardware
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* fixed labels in the README
+* added logging for feedback in the logs.
+  this way we can see, that the node is actually running
+* added README
+* Contributors: Thies Lennart Alff
+
 1.0.0 (2024-07-16)
 ------------------
 * moved to separate repo
