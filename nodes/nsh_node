@@ -33,6 +33,7 @@ class NSHNode(Node):
         self.fcu_reboot_service = self.create_service(
             Trigger, 'fcu_reboot', self.serve_fcu_reboot
         )
+        self.get_logger().info('Started.')
 
     def open_serial_port(self):
         try:

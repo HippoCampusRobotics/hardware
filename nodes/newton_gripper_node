@@ -38,6 +38,7 @@ class NewtonGripper(Node):
         self.command_sub = self.create_subscription(
             NewtonGripperCommand, 'gripper_command', self.on_gripper_command, 10
         )
+        self.get_logger().info('Started.')
 
     def on_gripper_command(self, msg: NewtonGripperCommand):
         self.timeout_timer.reset()

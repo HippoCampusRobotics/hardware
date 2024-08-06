@@ -58,6 +58,7 @@ class SpotLight(Node):
             Trigger, '~/startup_sequence', self.serve_startup_sequence
         )
         self.startup_sequence_thread = None
+        self.get_logger().info('Started.')
 
     def serve_startup_sequence(
         self, _: Trigger_Request, response: Trigger_Response

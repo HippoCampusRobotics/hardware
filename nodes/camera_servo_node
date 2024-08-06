@@ -49,6 +49,7 @@ class CameraServo(Node):
         self.tilt_sub = self.create_subscription(
             Float64, '~/tilt', self.on_tilt, 10
         )
+        self.get_logger().info('Started.')
 
     def on_parameters(self, params):
         for param in params:
