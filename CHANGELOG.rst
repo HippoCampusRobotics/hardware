@@ -2,8 +2,8 @@
 Changelog for package hardware
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.0.1 (2024-08-06)
+------------------
 * fixed labels in the README
 * added logging for feedback in the logs.
   this way we can see, that the node is actually running
